@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @media screen and (max-width: 800px) {
+*{
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+    </style>
+</head>
+<body>
+    <script>
+        function ok(){
+            alert("Loading Please Wait");
+        }
+        function sub() {
+         var originalName = document.getElementById("sub").value;
+         document.getElementById("show_name").innerHTML = "Subscribed! :" + originalName;
+      }
+        
+    </script>
+<div id="d1">
+    <b style="margin-left: 10px;" id="home">Greenden</b>
+    <p id="btn">
+       
+    <a href="#home" class="a" id="a1">Home</a>&nbsp;<span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#about" class="a" id="a2">About Us</a>&nbsp;<span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#products" class="a" id="a3">Products</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#shop" class="a" id="a4">Shop</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#review" class="a" id="a5">Review</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#support" class="a" id="a6">Support</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</p>
+</div>
+<div id="d2">
+    <p id="p2">We Offer You Wide Range Of Artificial And Natural Flowers</p>
+    <h1 id="h2">Plants For Your Interior</h1>
+  <a href="#shop"> <button id="b1" style="margin-left: 100px;margin-top: 40px;" onclick="ok()" ongo>Shop Now</button></a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.istockphoto.com/video/woman-watering-a-garden-bed-with-watering-can-gm1429595871-472738756?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_video_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fvideos%2Fsearch%2Fgarden%2F&utm_term=garden"> <button id="b2">  Watch Video</button></a> <br><br>
+   <p style="margin-left: 100px;">160+ Plants Species&nbsp;&nbsp;|&nbsp;&nbsp;100+ Clients</p> 
+   <div class="container"><img src="flower.jpeg" width="200px" height="200px" class="image">
+    <div class="middle">
+        <div class="text">Welcome!</div>
+      </div>
+</div>
+
+<div id="d4">
+    <h1 style="text-align: center;" id="about">About Us</h1><br>
+    <p style="text-align: center;">This Site For Those Who Admire The Beauty And Hormony Of Nature</p><br><br><br>
+    <div id="d01">
+    <div id="d5" style="border: 4px double black;border-radius: 20px;">
+        <center><img src="leaves-of-a-plant.png" width="50" height="50" style="margin-top: 30px;"></center>
+        <h3 style="text-align: center;">Large Assortment</h3><br>
+    <p style="text-align: justify;padding: 10px;">We offer our customer more then 15,000 items of natural and artificial flowers,trees and many accessories for floristry</p>
+    </div>
+    <div id="d5" style="border: 4px double black;margin-left: 50px;border-radius: 20px;">
+        <center><img src="free-shipping.png" width="60" height="60" style="margin-top: 30px;"></center>
+        <h3 style="text-align: center;">Fast And Free Shipping</h3><br>
+        <p style="text-align: justify;padding: 10px;">I find Maersk fascinating. It is the Coca-Cola of freight with none of the fame. Its parent company,its ships use more oil than the entire nation.”</p>
+    </div>
+    <div id="d5" style="border: 4px double black;margin-left: 50px;border-radius: 20px;">
+        <center><img src="telephone-call.png" width="50" height="50" style="margin-top: 30px;"></center>
+        <h3 style="text-align: center;">24/7 Support</h3><br>
+        <p style="text-align: justify;padding: 10px;">Long ago non-stop service used to be exploited only by emergency , began to offer round the clock service.</p>
+    </div>
+    
+    </div><br>
+    <h1 style="text-align: center;"  id="products">Products</h1>
+</div>
+<div id="d6">
+    
+    <div id="d7">
+<img src="fl.avif" width="200px" height="300px" style="width: 100%;" class="zoom"><br>Indore Plants</div>
+<div id="d8"><img src="rose.avif" width="200px" height="300px" class="zoom"><br>Natural Plants</div>
+<div id="d9"><img src="leaf.jpg" width="200px" height="300px" class="zoom"><br>Outdoor Plants</div>
+<p style="margin-top:350px;margin-right:100px;"><br>Plastic And Textile Products Are Practical Solution For Everyone Who Loves Flowering Plants But Does Not Have The Same Or Desire To Care For Them.  </p>
+</div>
+<div id="d10">
+<h2 style="padding-top: 10px;margin-left: 10px;" id="shop" >Best Seller!</h2>
+<div id="d02">
+<div id="d11"><a href="f21.jpg" target="_blank"><img src="f21.jpg" width="200px" height="300px" class="s1"></a><br><br>Natural Plant<br>Rs.500</div>
+<div id="d12"><a href="f22.jpeg" target="_blank"><img src="f22.jpeg" width="200px" height="300px" class="s1"></a><br><br>Artificial Plant<br>Rs.800</div>
+<div id="d13"><a href="f23.jpg" target="_blank"><img src="f23.jpg" width="200px" height="300px" class="s1"></a><br><br>Outdoor Plant<br>Rs.1500</div>
+<div id="d14"><a href="f24.jpeg" target="_blank"><img src="f24.jpeg" width="200px" height="300px" class="s1" ></a><br><br>Plastic Plant<br>Rs.1120</div>
+</div>
+</div>
+<div id="d15">
+      <div id="d16"><img src="cus.jpg" style="height: 300px;width: 300px;"></div>
+      <p style="padding-top: 30px;padding-right: 100px;font-size: xx-large;padding-left: 100px;" id="review">What Our Happy Clients Says<br><span style="font-size: medium;text-align: justify;">"Possibility TO Purchase At any time.Regardless of the season,wheather and time of day,any flowers can be used to decorate a room".<br>Mark Shelly&nbsp;&nbsp;<div id="d03"><img src="web.png" width="80px" height="80px"></div></span></p>
+</div>
+<div id="d17">
+<h2 id="support">Join Our News Letter</h2><br>
+<p>Signup for our newspaper to get exclusive discounts,updates,and more</p><br>
+<input type="text" style="width: 800px;height: 30px;" id="sub" placeholder="Enter Your Name"><br><br>
+<p id="show_name"></p>
+<button style="width: 200px;height: 30px;padding: 2px;color: rgb(255, 255, 255);background-color: black;" onclick="sub()" >Subscribe!</button>
+</div>
+<div id="d18">
+    <h1 style="padding-top: 10px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Greeny</h1><br>
+    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">We Offer You Wide Range Of Artificial And Natural Flowers.</p><br>
+    <div id="d19">
+        <a href="https://www.facebook.com/"><img src="facebook.png" width="30px" height="30px"></a>
+        <a href="https://www.instagram.com/"><img src="instagram.png" width="30px" height="30px"></a>
+        <a href="https://g.co/kgs/LdCrfp"><img src="twitter.png" width="30px" height="30px"></a>
+    </div><br>
+    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">&copy;aashikmunaf22@gmail.com</p>
+    <center><h6>Designed And Developed By<br>_Munaf_</h6></center>
+</div>
+
+
+<a href="#" class="top"><img src="arrow-up.png" width="50px" height="50px"></a>
+    
+</body>
+</html>
